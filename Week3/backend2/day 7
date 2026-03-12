@@ -1,0 +1,54 @@
+// what is diff btw http and tcpip
+// heap and stack are the part of js engine
+// 1 thread cantain by js in the js engine..
+// odm = object document mapping.
+// each and every database operation return request..
+// event look a mechanism in js used to handle asynchronous
+// operation
+
+// *build user rest api
+//   1.create user
+//   2.real all users
+//   3.update user.
+//   4.delete user.
+// *create schema and model of the resource(user)
+// *define the routes.
+
+// *use findone method to read a document with non object id fields
+// *use findbyid to read document with obj id
+//   *status code
+//   200-success
+//   201-created
+//   400-bad request
+//   401-unauthorised
+//   404-not found
+//   500-server error
+
+  //handling unavailable resources.
+  //validators during update.
+  //hashing password.
+  // converting text to hash code for security purpose(bycript)
+  // //unique fields.
+  // unique identification for avoiding same documents
+  // //refined version of error handling middleware.
+
+  // //error handler
+  // app.use((err,req,res,next)=>{
+  //   if(err.name==="validationError"){
+  //     return res.status(400).json({message:"error occured",err})
+  //   }
+  //   //create error
+  //   if(err.name==="CastError"){
+  //     return res.status(400).json({message:"error occured",err})
+  //   }
+  //   //send 
+  // })
+
+
+
+  ///###USER AUTHENTICATION.(login and register operations)
+  //submit credential to login and get token. is called authentication.
+  //protected routes which askn our user to login before accessing the resource by user only.
+  //public routes which can be accessed by anyone without login if they have the url then anyone can access the route.
+  //DEFAULT every route is a public route.
+  //we need to add security to make some routes to protected routes.

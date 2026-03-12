@@ -1,0 +1,8 @@
+JWT authentication flow..
+cross orgin vs same origin
+cross orgin req means when the client and server application running in diff domain or port
+same means both are running in same domain.
+cookies will send along with req automatically in same origin req. but for cross,the token should be explicitly included to the req
+
+embending document and reference document.
+reference document is better.
