@@ -1,0 +1,28 @@
+// 1.generate pckage.json.
+// 2.create .env file.
+// 3.create express app assign the port.
+
+
+// 6.implement APIs.
+
+
+// 7.dele.
+// xss.
+// crsf.
+
+
+
+// admin.
+// adminlogin.
+// reaad all user and autor.
+// block or activeate the user and author.
+
+
+// ###Frotend
+// Dynamic,responsive user interface(UI=webpages->Browser).
+// -HTML.
+// -CSS(style and responsiveness),modern css=bootstrap,tailwindCSS.
+//dynamic naature which always provide new data.
+//javascript.
+//recatsjs/angular/vue/nextjs  js tecnology.
+
