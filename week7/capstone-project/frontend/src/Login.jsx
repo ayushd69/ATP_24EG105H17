@@ -11,9 +11,9 @@ import {
   mutedText,
   linkClass,
   loadingClass,
-} from "../styles/common";
+} from "./styles/common";
 import { NavLink, useNavigate, useLocation } from "react-router";
-import { useAuth } from "../store/authStore";
+import { useAuth } from "./store/authStore";
 import { useEffect } from "react";
 import {toast} from 'react-hot-toast'
 

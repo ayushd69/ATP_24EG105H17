@@ -13,8 +13,8 @@ import {
   submitBtn,
   errorClass,
   loadingClass,
-} from "../styles/common";
-import { useAuth } from "../store/authStore";
+} from "./styles/common";
+import { useAuth } from "./store/authStore";
 
 function WriteArticles() {
   const navigate = useNavigate();

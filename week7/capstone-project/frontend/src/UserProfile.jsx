@@ -1,4 +1,4 @@
-import { useAuth } from "../store/authStore";
+import { useAuth } from "./store/authStore";
 import { useNavigate } from "react-router";
 
 import axios from "axios";
@@ -12,7 +12,7 @@ import {
   loadingClass,
   errorClass,
   timestampClass,
-} from "../styles/common.js";
+} from "./styles/common.js";
 
 function UserProfile() {
   const logout = useAuth((state) => state.logout);

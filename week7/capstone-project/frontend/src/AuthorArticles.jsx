@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
-import { useAuth } from "../store/authStore";
+import { useAuth } from "./store/authStore";
 
 import {
   articleCardClass,
@@ -14,7 +14,7 @@ import {
   emptyStateClass,
   articleStatusActive,
   articleStatusDeleted,
-} from "../styles/common";
+} from "./styles/common";
 
 function AuthorArticles() {
   const navigate = useNavigate();
