@@ -1,6 +1,6 @@
 import {counterContextObj} from "./Context/ContextProvider.jsx"
 import { useContext } from "react"
-import { useCounterStore } from "../store/CounterStore.js";
+import { useCounterStore } from "./store/CounterStore.js";
 
 function Test() {
     console.log("Test")
