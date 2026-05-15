@@ -9,4 +9,4 @@ console.log("average temperature",c);
 let d=temp.find(temp=>temp>40);
 console.log("temp above 40",d);
 let e=temp.findIndex(temp=>temp===28);
-console.log("index of 28:",e);
+console.log("index of 28:",e);0
